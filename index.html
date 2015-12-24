@@ -1,0 +1,54 @@
+<!--
+
+
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Battery Status :: API Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <header class="demo-header">
+      <h1 class="demo-title">battery status</h1>
+      <p class="not-support" hidden>Your browser doesn't support the Battery Status API :(</p>
+    </header>
+
+    <article class="battery-card">
+
+      <div class="battery-box">
+        <strong class="battery-percentage"></strong>&nbsp&nbsp&nbsp<i class="fa fa-4x fa-battery-full"></i>
+      </div>
+
+      <dl class="battery-info">
+        <dt>Power Source</dt>
+        <dd class="battery-status">---</dd>
+
+        <dt>Level percentage</dt>
+        <dd class="battery-level">---</dd>
+
+        <dt>Fully charged in</dt>
+        <dd class="battery-fully">---</dd>
+
+        <dt>Remaining time</dt>
+        <dd class="battery-remaining">---</dd>
+      </dl>
+
+    </article>
+
+    <footer>
+      Made with <span class="heart">❤</span> by <a href="https://r3bl.me/">Aleksandar Todorović</a>
+      <p>
+    </footer>
+
+    <script src="src/index.js" async></script>
+  </body>
+</html>

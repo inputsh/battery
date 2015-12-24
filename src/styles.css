@@ -1,0 +1,180 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+    font-family:"Droid Sans";
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+    }
+
+body {
+    margin:0
+    }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display:block
+    }
+
+audio,canvas,progress,video {
+    display:inline-block;
+    vertical-align:baseline
+}
+
+a {
+    background-color:transparent
+}
+
+a:active,a:hover {
+    outline:0
+}
+
+abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:90%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}
+/**
+ * Mobile First
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab:700|Droid+Sans);
+
+body {
+    background-color: #6534ff;
+    font: 100%/1.4em "Raleway";
+    color
+    margin: 0 auto;
+    padding: 0 0.625em;
+    color: #bbc4ef;
+    -webkit-text-size-adjust: none;
+}
+
+/**
+ * Small Screens
+ */
+
+.demo-header {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.demo-title {
+  font-size: 4em;
+  line-height: 1em;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.battery-card {
+  font-family: "Droid Sans";
+  display: block;
+  width: 300px;
+  overflow: hidden;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.battery-percentage {
+  font-size: 3.9em;
+}
+
+.battery-box {
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.battery {
+  display: inline-block;
+  position: relative;
+  width: 85px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.battery:before {
+  content: '';
+  display: block;
+  background: #000;
+  height: 40px;
+  position: absolute;
+  border: 1px solid #fff;
+}
+
+
+.battery:after {
+  content: '';
+  display: block;
+  background: #000;
+  width: 6px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  right: -11px;
+  margin-top: -8px;
+  border-radius: 0 4px 4px 0;
+}
+
+.battery-info {
+  font-family: "Droid Sans";
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 15px 45px;
+  overflow: hidden;
+}
+
+.battery-info dd {
+  float: right;
+  margin-top: -22px;
+  text-align: left;
+  width: 35%;
+}
+
+footer {
+  margin: 70px auto 0;
+  text-align: center;
+}
+
+.heart {
+  font-style: normal;
+  font-weight: 500;
+  color: #c0392b;
+  text-decoration: none;
+}
+
+#github-button {
+  display: block;
+  margin: 30px auto 0;
+  position: relative;
+  left: 40px;
+}
+
+#github-ribbon {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  border: 0;
+  width: 149px;
+  height: 149px;
+}
+
+.github-buttons {
+  text-align: center;
+  margin: 1em 0;
+}
+
+h1 {
+    font-family: "Josefin Slab";
+}
+
+a, a:hover, a:visited {
+    color: #62bcfa;
+    text-decoration: none;
+}
+
+
+/**
+ * Medium Screens
+ */
+@media all and (min-width:40em) {}
+
+/**
+ * Large Screens
+ */
+@media all and (min-width: 54em) {}
