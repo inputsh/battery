@@ -10,11 +10,14 @@
 
 ![screenshot](http://i.imgur.com/GDLdygE.png)
 
-## Support
+## Compatible with
 
 - Chrome 38+
 - Chrome for Android
 - Firefox 31+
+- Firefox for Android
+
+I haven't had the chance to test it out on other devices.
 
 ## Specs
 
@@ -25,10 +28,7 @@
 - Aleksandar Todorović (Frontender & Web standards lover)
 - email: [aleksandar.todorovic@mail.ru](mailto:aleksandar.todorovic@mail.ru)
 - Twitter: [@r3bl_](http://twitter.com/r3bl_)
-- Web: [https://r3bl.me](http://r3bls.me)
-
-Forked from [Battery Demo API](https://github.com/pazguille/demo-battery-api) by [Guille Paz](http://pazgullie.me)
-
+- Web: [https://r3bl.me](http://r3bl.me)
 
 ## License
 Licensed under the MIT license.
