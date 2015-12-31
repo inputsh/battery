@@ -11,13 +11,19 @@
 ![screenshot](http://i.imgur.com/GDLdygE.png)
 
 ## Compatible with
-
 - Chrome 38+
 - Chrome for Android
 - Firefox 31+
 - Firefox for Android
+- Opera 25+
+- Opera Mobile 25+
 
-I haven't had the chance to test it out on other devices.
+## Not compatible with
+- Safari
+- Safari Mobile
+- IE Mobile
+- Internet Explorer
+- Chrome for iOS
 
 ## Specs
 
