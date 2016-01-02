@@ -24,6 +24,7 @@
 - IE Mobile
 - Internet Explorer
 - Chrome for iOS
+- Android Browser
 
 ## Specs
 
